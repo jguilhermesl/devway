@@ -1,24 +1,28 @@
-export const data = {
+export const dataApiFake = {
     BREADS: [
         {
         id: 0,
         type: 'Pão australiano',
-        image: '/img/breadAustralian.jpeg'
+        image: '/img/breadAustralian.jpeg',
+        selected: false
         },
         {
         id: 1,
         type: 'Pão brioche',
-        image: '/img/breadBrioche.jpg'
+        image: '/img/breadBrioche.jpg',
+        selected: false
         },
         {
         id: 0,
         type: 'Pão italiano',
-        image: '/img/breadItalyan.jpg'
+        image: '/img/breadItalyan.jpg',
+        selected: false
         },
         {
         id: 0,
         type: 'Pão integral',
-        image: '/img/breadIntegral.jpg'
+        image: '/img/breadIntegral.jpg',
+        selected: false
         },
 ],
     MEATS: [
@@ -54,11 +58,29 @@ export const data = {
         },
         {
         id: 3,
-        type: 'Molho caseiro da casa'
+        type: 'Maionese'
         },
         {
         id: 4,
         type: 'Alface'
+        },
+        {
+        id: 5,
+        type: 'Ovo'
+        }
+    ],
+    STATUS: [
+        {
+        status: 'Solicitado',
+        number: 1
+        },
+        {
+        status: 'Em preparo',
+        number: 2
+        },
+        {
+        status: 'Em trânsito',
+        number: 3
         }
     ]
 }

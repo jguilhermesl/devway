@@ -1,1 +1,12 @@
-ver o pão selecionado
+- [x] Configurar Vue Router 
+- [x] Criar views 'Home' e 'Orders'
+- [x] Componentizar e estilizando página Home
+- [x] Criação e validação de Formulário
+- [x] Modal para confirmação de geração de pedido com SweetAlert
+- [x] Registro de dados do Formulário no Firebase
+- [x] Criar e estilizar dashboard na view 'Orders'
+- [x] Responsividade da dashboard
+- [x] Resgatar dados no Firebase e listá-los na Dashboard
+- [x] Ações da dashboard (Finalizar pedido e excluir pedido)
+- [ ] Seleção do pão vísivel
+- [ ] Build e Deploy

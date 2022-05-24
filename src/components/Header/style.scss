@@ -4,7 +4,7 @@
     align-items: center;
     height: 4rem;
     width: 100%;
-    box-shadow:  rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
     z-index: 100;
 
     .logo {
@@ -12,15 +12,16 @@
         align-items: center;
         color: var(--red);
         margin-left: 4rem;
+
         a {
             display: flex;
             align-items: center;
 
             img {
-            height: 3rem;
-            object-fit: cover;
+                height: 3rem;
+                object-fit: cover;
+            }
         }
-    }
 
         h1 {
             margin-left: 1rem;
@@ -53,22 +54,26 @@
         }
     }
 
-    button {
+    a {
         margin-left: auto;
-        margin-right: 3rem;
-        background: var(--red);
-        color: #fff;
-        outline: none;
-        border: none;
-        padding: 12px 25px;
-        border-radius: 10px;
-        font-weight: 600;
+
+        button {
+            margin-left: auto;
+            margin-right: 3rem;
+            background: var(--red);
+            color: #fff;
+            outline: none;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
     }
 
     @media only screen and (max-width: 750px) {
         flex-direction: column;
         align-items: center;
-        height: 10rem;
+        height: 12rem;
 
         .logo {
             padding: 5px;
@@ -80,8 +85,12 @@
             justify-content: center;
         }
 
-        button {
+        a {
             margin: 10px 0 0 0;
+
+            button {
+                margin: 0px;
+            }
         }
     }
 

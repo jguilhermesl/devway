@@ -38,7 +38,7 @@
 <script>
 import { db } from "../../services/firebase";
 import { collection, addDoc } from "firebase/firestore/lite";
-import { data } from "../../api/data";
+import { dataApiFake } from "../../api/data";
 
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import "sweetalert2/src/sweetalert2.scss";
@@ -61,11 +61,12 @@ export default {
             meatSelected: "",
             optionalsSelected: [],
             status: "Solicitado",
+            statusNumber: 1,
 
             //INFO API FAKE
-            infoDataBreads: data.BREADS,
-            infoDataMeats: data.MEATS,
-            infoDataOptionals: data.OPTIONALS,
+            infoDataBreads: dataApiFake.BREADS,
+            infoDataMeats: dataApiFake.MEATS,
+            infoDataOptionals: dataApiFake.OPTIONALS,
 
             //MODAL
             isModalActive: false,
@@ -100,6 +101,7 @@ export default {
                     meatType: this.meatSelected,
                     optionalCustomer: this.optionalsSelected,
                     statusType: this.status,
+                    statusNumber: this.statusNumber
                 })
                 console.log("Success")
             } catch (e) {

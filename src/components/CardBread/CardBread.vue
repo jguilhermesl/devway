@@ -1,7 +1,7 @@
 <template>
   <div class="cardBread" v-for="(bread, index) in data" v-bind:key="index">
-    <img :src="bread.image"  />
-    <span style=" color: red">{{ bread.type }}</span>
+    <img :src="bread.image"  @click="teste" />
+    <span>{{ bread.type }}</span>
     <button type="button" @click="() => changeBread(bread.type)">
       Escolher
     </button>
@@ -17,7 +17,8 @@ export default {
     changeBread: Function
   },
   methods: {
-
+    checkBreadSelected() {
+    }
   }
 };
 </script>

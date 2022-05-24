@@ -10,7 +10,7 @@
                 <router-link to="/orders"><li>Pedidos</li></router-link>
             </ul>
         </nav>
-        <button>Fazer pedido</button>
+        <router-link to="/"><button>Fazer pedido</button></router-link>
     </header>
 </template>
 
