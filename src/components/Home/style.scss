@@ -113,7 +113,7 @@
         }
     
         .inputInfo {
-            max-width: 300px;
+            width: 300px;
             margin: 0rem 0 1rem 0;
             background: none;
             outline: none;
@@ -184,6 +184,12 @@
         @media only screen and (max-width: 800px) {
             padding: 0rem 10px;
             margin: 0 auto;
+        }
+    }
+
+    @media only screen and(max-width: 600px){
+        form {
+            align-items: center;
         }
     }
 

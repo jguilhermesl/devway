@@ -3,12 +3,12 @@
         <div class="infoHome">
             <h1>MONTE SEU HAMBÚRGUER</h1>
             <span>O melhor hambúrguer da cidade</span>
-            <button>Pedir agora</button>
+            <a href="#makeYourBurguer"><button>Pedir agora</button></a>
             <p>Nós preparamos com muito amor! ❤</p>
         </div>
         <img src="/img/burguer.png" alt="Hamburguer grande" />
     </div>
-    <div class="makeYourBurguer">
+    <div class="makeYourBurguer" id="makeYourBurguer">
         <h1>Monte seu hamburguer</h1>
         <form @submit="handleForm($event)">
             <input type="text" placeholder="Digite seu nome" class="inputInfo" v-model="nameCustomer" />
