@@ -11,21 +11,21 @@ Confira a aplicação: https://devway.netlify.app/ <br>
 ## :page_facing_up: Explicação
 
 O projeto consiste num sistema de registro de pedidos de Hambúrgueres. O usuário preenche um formulário e poderá escolher entre as opções de pães, carnes e opcionais, logo após todas as informações estiverem completas o pedido do usuário é registrado no DB Firestore do Firebase.
-Todos os pedidos registrados são listados na rota '/orders', podendo ser acessada pelo Header. Os pedidos são ordenados numa tabela por nível de urgência de 1-4, onde:
-1- Solicitado
-2- Em preparo
-3- Em trânsito
-4- Finalizado
-O admin pode gerenciar pedidos, mudando seu status e excluindo.
+Todos os pedidos registrados são listados na rota '/orders', podendo ser acessada pelo Header. Os pedidos são ordenados numa tabela por nível de urgência de 1-4, onde: </br>
+1- Solicitado </br>
+2- Em preparo </br>
+3- Em trânsito </br>
+4- Finalizado </br>
+O admin pode gerenciar pedidos, mudando seu status e excluindo. 
 
 ## 📁 Componentes
 
-**Home:** nesse componente é feita a apresentação do projeto e também está presente o formulário para registrar pedidos.
-**Dashboard:** nesse componente estão listados todos os registros de pedidos, ordenados por nível de urgência.
-**CardBread:** nesse componente é feito o v-for para a listagem de cards, as informações são recebidas por props do componente Home.
-**Footer:** nesse componente está o rodapé do site.
-**Header:** nesse componente está o cabeçalho do site.
-
+**Home:** nesse componente é feita a apresentação do projeto e também está presente o formulário para registrar pedidos. </br>
+**Dashboard:** nesse componente estão listados todos os registros de pedidos, ordenados por nível de urgência. </br>
+**CardBread:** nesse componente é feito o v-for para a listagem de cards, as informações são recebidas por props do  componente Home. </br>
+**Footer:** nesse componente está o rodapé do site. </br>
+**Header:** nesse componente está o cabeçalho do site. </br>
+ 
 ## 📁 Views
 
 O site tem no total 2 views, sendo elas:
